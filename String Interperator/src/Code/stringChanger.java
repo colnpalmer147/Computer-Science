@@ -4,7 +4,7 @@ public class stringChanger {
 	private String _input = null;
 	
 	public stringChanger(String input){
-		_input = input;
+		set_input(input);
 	}
 
 
@@ -12,5 +12,15 @@ public class stringChanger {
 		
 		
 		return input;
+	}
+
+
+	public String get_input() {
+		return _input;
+	}
+
+
+	public void set_input(String _input) {
+		this._input = _input;
 	}
 }

@@ -18,9 +18,9 @@ public class KeyHandler implements KeyListener{
 	}
 
 	@Override
-	public void keyTyped(KeyEvent arg0) {
+	public void keyTyped(KeyEvent e) {
 		// TODO Auto-generated method stub
-		
+		System.out.print(e.getKeyChar());
 	}
 
 }
